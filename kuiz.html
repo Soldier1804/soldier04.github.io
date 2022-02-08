@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KUIS HJ</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<div id="awal">
+		<div id="opening">
+		<h1>Selamat Datang di Quiz HJ</h1>
+		<button onclick="startQuiz()">Play Quiz</button>
+		</div>
+	</div>
+
+	<div id="isi" class="hidden">
+<div id="quiz_window">
+	<h1 id="question"></h1>
+<ul>
+	<li><input type="radio" name="choices" data-id="0" id="choice0">
+	<label for="choice0" id="choiceText0"></label>
+	</li>
+	<li><input type="radio" name="choices" data-id="1" id="choice1">
+	<label for="choice1" id="choiceText1"></label>
+	</li>
+	<li><input type="radio" name="choices" data-id="2" id="choice2">
+	<label for="choice2" id="choiceText2"></label>
+	</li>
+</ul>
+
+<button onclick="nextQuestion()"><p>Next</p></button>
+</div>
+</div>
+	<div id="penutup" class="hidden">
+<div id="closing_window">
+	<h1>Quiz Selesai</h1>
+	<button><a href="https://karpetmasjid.co.id/">Claim Now</a></button>
+</div>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

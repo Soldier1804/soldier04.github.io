@@ -1,0 +1,170 @@
+		body{
+			background-image: url(masjid.jpeg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+		#awal{
+			position:absolute;
+			left: 50%;
+    		top: 50%;
+			transform: translate(-50%,-50%);
+   	 		padding: 20px 25px;
+    		width: 500px;
+			background-color: rgba(56, 54, 54, 0.8);
+  		  	box-shadow: 0 0 10px rgba(39, 37, 37, 0.842);
+		}
+		#opening h1{
+			text-align: center;
+			font-family: Arial;
+			font-size: 49px;
+			font-weight: bold;
+			position: relative;
+			bottom:15px;
+			color:white;
+			text-shadow: 5px 3px 1px rgba(212, 129, 34,0.5);
+		}
+		#opening button{
+			box-sizing: border-box;
+  			-webkit-appearance: none;
+    		-moz-appearance: none;
+         	appearance: none;
+ 			background-color: rgb(33, 44, 44);
+			box-shadow: 0 0 15px white;
+			border-radius: 0.6em;
+			color:white;
+			cursor: pointer;
+			display: flex;
+			align-self: center;
+			font-size: 1rem;
+			font-weight: 400;
+			line-height: 1;
+			margin:auto;
+			padding:2em 3em;
+			text-decoration: none;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+		}
+		#opening button:hover{
+			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  			transform: translateY(-0.25em);
+		}
+		#isi{
+			position:absolute;
+			left: 50%;
+    		top: 50%;
+			transform: translate(-50%,-50%);
+   	 		padding: 20px 25px;
+    		width: 500px;
+			background-color: rgb(3, 3, 3,0.8);
+  		  	box-shadow: 0 0 10px rgba(39, 37, 37, 0.842);
+			color:white;
+		}
+		#isi button{
+			box-sizing: border-box;
+  			-webkit-appearance: none;
+    		-moz-appearance: none;
+         	appearance: none;
+ 			background-color: rgb(33, 44, 44);
+			border-radius: 0.6em;
+			width: 100%;
+			color:white;
+			cursor: pointer;
+			display: flex;
+			font-size: 19px;
+			font-weight: 400;
+			line-height: 1;
+			padding: 5px;
+			margin-top:30px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+		}
+		#isi button:hover{
+			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  			transform: translateY(-0.25em);
+
+		}
+		#isi button p{
+			position: relative;
+			left:215px;
+		}
+		#isi ul li{
+			list-style:none;
+			padding: 10px;
+			margin-left:100px;
+			position: relative;
+			right:65px;
+		}
+		#question{
+		 margin-left:70px;
+		}
+		#penutup{
+			position:absolute;
+			left: 50%;
+    		top: 50%;
+			transform: translate(-50%,-50%);
+   	 		padding: 20px 25px;
+    		width: 500px;
+			background-color: rgba(56, 54, 54, 0.8);
+  		  	box-shadow: 0 0 10px rgba(39, 37, 37, 0.842);
+		}
+		#penutup h1{
+			text-align: center;
+			font-family: Arial;
+			font-size: 49px;
+			font-weight: bold;
+			position: relative;
+			bottom:15px;
+			color:white;
+			text-shadow: 5px 3px 1px rgba(212, 129, 34,0.5);
+		}
+		#penutup button{
+			box-sizing: border-box;
+  			-webkit-appearance: none;
+    		-moz-appearance: none;
+         	appearance: none;
+ 			background-color: rgb(33, 44, 44);
+			border-radius: 0.6em;
+			width: 200px;
+			color:white;
+			cursor: pointer;
+			display: flex;
+			font-size: 19px;
+			font-weight: 400;
+			line-height: 1;
+			padding: 10px;
+			position: relative;
+			left:150px;
+			margin-top:30px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+		}
+		#penutup button a{
+			text-decoration: none;
+			color:white;
+			position: relative;
+			left:30px;
+		}
+		#penutup button:hover{
+			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  			transform: translateY(-0.25em);
+		}
+		.hidden {
+			display: none;
+		}
+@media screen and (min-width:360px){
+	body{
+		width: 500px;
+	}
+	#opening h1{
+			font-size: 30px;
+			font-weight: bold;
+		}
+
+}
